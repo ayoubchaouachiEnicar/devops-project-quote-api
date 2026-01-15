@@ -40,5 +40,5 @@ jobs:
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker tag todo-api ayoubchaouachiEnicar/todo-api:latest
-          docker push ayoubchaouachiEnicar/todo-api:latest
+          docker tag todo-api sobergragos/todo-api:latest
+          docker push sobergragos/todo-api:latest
